@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Tíäg Silvä">
+
+    <title>Gulliver Travaller | HOTEL - Prodigy Gramado</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="fonts/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom Theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Advanced CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="js/lib/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="js/lib/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="js/lib/owl-carousel/owl.transitions.css" rel="stylesheet">
+    <link href="js/lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="js/lib/video/YTPlayer.css" rel="stylesheet">
+    <link href="js/lib/flipclock/flipclock.css" rel="stylesheet">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top wp1" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">
+                    <i class="fa fa-video-camera"></i>HOTEL <span class="font-light">Prodigy Gramado</span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+              
+                    <li class="page-scroll">
+                        <a href="#about">Sobre o Hotel</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#movie-player">Sua Localização</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#gallery">Suas Fotos</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#blog">Avaliações dos Usuáros</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro">
+        <div class="video-content">
+            <div class="video-image wp1 delay-1s">
+                <img src="img/video-img.jpg" alt="Foto: Fachada do hotel de madeira, com ma ampla entrada com porta de vidros. Na laterel, dois grandes prédios com 4 grandes janelas de vidro, totalizando quatro andares.">
+            </div>
+
+            <div class="overlay">
+                <div class="container-wrapper">
+                    <div class="container">
+                        <div class="col-md-12 wp1 delay-05s">
+                            <div class="intro-info-wrapper">
+                                <h1 class="text-center">Prodigy Gramado
+                                    <span class="text-color font-light">HOTEL</span>
+                                </h1>
+                                <div id="owl-intro" class="owl-carousel owl-theme">
+                                    <div class="item">
+                                        <p class="font-similar"> DE: R$ <s>319,00</s> <b> POR: R$ 264,00.</b>
+                                        </p>
+                                        <div class="clock-wrapper">
+                                            <div class="clock"></div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <p class="font-similar">
+                                            Localizado no coração de Gramado. Rio Grande do Sul - Brasil.
+                                            <br>
+                                            Quartos tranquilos em uma propriedade descontraída com restaurante, piscina
+                                            externa e café da manhã incluso.
+
+                                            Hotel de 4 estrelas. Oferta 21% abaixo da média!
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.intro-info-wrapper -->
+
+                    <div class="media-btns buttons page-scroll">
+
+                        <div class="btn btn-default play-btn" id="play-button">Assita o vídeo do Hotel <i
+                                class="fa fa-play animated"></i></div>
+                        <div class="btn btn-default pause-btn" id="pause-button">Parar vídeo<i
+                                class="fa fa-pause animated"></i></div>
+
+                        <a class="btn btn-default about-btn" href="#about">Sobre o Prodigy Gramado<i
+                                class="fa fa-chevron-right"></i></a>
+
+                        <a class="btn btn-default about-btn" href="404-page.html">Reservar um quarto<i
+                                class="fa fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <div id="player"></div>
+            </div>
+        </div>
+    </section><!-- /#intro -->
+    <!-- About Section -->
+    <section id="about">
+        <div class="more page-scroll" id="more">
+            <a href="#about"><i class="fa fa-angle-down"></i></a>
+        </div>
+        <div class="container wp2">
+            <h1 class="section-title">Sobre o Hotel</h1>
+            <div class="row">
+                <div class="col-lg-6 wp2 delay-05s">
+                    <div class="movie-disc">
+                        <div class="movie-avatar">
+                            <div class="movie-avatar-img">
+                                <img src="img/movie-avatar-img.jpg" alt="Foto ilustrativa: Uma coqueiro no meio com algumas arvores atrás, no fundo e olhando para cima, tem dois prédios modernos, com uma estrutura de curvas redondas, ele aparenta ter mais de 100 andares">
+                            </div><!-- /.movie-avatar-img -->
+                        </div><!-- /.movie-disc -->
+                    </div><!-- /.movie-avatar -->
+                </div><!-- /.col-lg-6 -->
+                <div class="col-lg-6 wp2 delay-1s">
+                    <h2>Rio Grande Sul - Brasil <br></h2>
+                    <h3>HOTEL: <span class="text-color">PRODIGY GRAMADO</span></h3>
+                    <h4 class="sub-text">De R$ 319,00 por R$ 260,00 <br>
+                        Reconhecimento com 4 estrelas <br>
+                    </h4>
+                    <TABLE class="text-dark">
+                        <TR>
+                            <TD>Horário de check-in</TD>
+                            <TD>&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;</TD>
+                            <TD>14:00</TD>
+                        </TR>
+
+                        <TR>
+                            <TD>Horário de check-out</TD>
+                            <TD>&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;</TD>
+                            <TD>12:00</TD>
+                        </TR>
+
+                        <TR>
+                            <TD>Endereço</TD>
+                            <TD>&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;</TD>
+                            <TD><span class="detailed-text">R. João Petry, 444 - Centro, Gramado - RS, 95670-000</span>
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>Telefone</TD>
+                            <TD>&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;</TD>
+                            <TD><span class="detailed-text">0800 600 8088
+                                </span> </TD>
+                        </TR>
+
+                    </TABLE>
+                    <br>
+
+                    <p>Situado em um prédio moderno com detalhes em madeira
+                        escura, este hotel descontraído fica no centro de Gramado, a 11 minutos a pé
+                        do parque temático Mini Mundo e a 2 km do parque à beira do Lago Negro.
+                    </p>
+                    <p>
+                        Os quartos acolhedores têm Wi-Fi gratuito, tela plana, frigobar e cofre. As acomodações de
+                        categoria mais alta oferecem sofá-cama. Serviço de quarto disponível.
+                    </p>
+                    <p>
+                        O café da manhã é cortesia. Há também um restaurante moderno e um bar no lobby, além de uma
+                        piscina externa e uma sala de TV. O estacionamento está disponível mediante uma taxa.
+                    </p>
+                    <p>
+                        <br>
+
+                    <div class="detailed">
+                        Avaliação de 4 estrelas:&nbsp;&nbsp;
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <span>Nota do hotel: <b> 4.7 / 5.0</b></span>
+
+                    </div>
+                    <p></p>
+                </div><!-- /.col-lg-6 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /#about -->
+
+
+
+    <!-- Movie-Player Section -->
+    <section id="movie-player">
+        <div class="overlay"></div>
+        <div class="movie-player-element"></div>
+        <div class="damper-left"></div>
+        <div class="damper-right"></div>
+
+        <div class="container">
+
+            <div class="col-lg-10 col-lg-offset-1 wp5 delay-05s">
+                <h1 class="section-title">LOCALIZAÇÃO DO HOTEL</h1>
+                <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCNaQWcrenbry6oljFNK-3pdjC-UIeg1ho
+    &q=Space+Needle,Seattle+WA">
+                    </iframe>
+                </div>
+                <br>
+                <br>
+                <p class="text-center">
+                    R. João Petry, 444 - Centro, Gramado - RS, 95670-000 | Telefone: 0800 600 8088
+                </p>
+            </div><!-- /.col-lg-12 -->
+        </div><!-- /.container -->
+    </section><!-- /#movie-player -->
+
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <div class="overlay"></div>
+
+        <div class="section-wrapper wp8 delay-05s">
+            <h1 class="section-title">Fotos do Hotel</h1>
+            <div id="owl-gallery">
+
+                <div class="item"><a href="img/gallery/01.jpg" class="popup"><img src="img/gallery/01.jpg" alt="Foto: Mesa redonda de madeira com cadeiras de piscina. Atrás uma Piscina grande com vista para academia e outras entradas do Hotel. No canto direot, tem alguns jardins. No canto esquerdo, uma casa média sem vista para janela."></a>
+                </div>
+                <div class="item"><a href="img/gallery/02.jpg" class="popup"><img src="img/gallery/02.jpg" alt="Foto: Fachada de madeira do Hotel, mostrando algumas 6 torres de apartamentos. Na frente o jardim de entreda com a Bandeira do Brasil e algumas outras que estão em movimento e com difícil identificação."></a>
+                </div>
+                <div class="item"><a href="img/gallery/03.jpg" class="popup"><img src="img/gallery/03.jpg" alt="Foto: Bar do Hotel no lado direito, com uma moderna bancada e luzes ambientes deixando mais aconchegante. O ambiente é de madeira e bem moderno. No canto esquerdo estão as mesas."></a>
+                </div>
+                <div class="item"><a href="img/gallery/05.jpg" class="popup"><img src="img/gallery/04.jpg" alt="Foto: Sala de estar totalemnte branca com detalhes de madeira. Na frente 6 poltronas brancas uma mesa de centro e um vaso. Atrás outras mesas e acessos a outras áreas. No canto direot um tapete marrom grande no corredor."></a>
+                </div>
+            </div><!-- /#owl-gallery -->
+        </div>
+    </section><!-- /#gallery -->
+
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 wp9 delay-05s">
+                    <h1 class="section-title">Avaliações dos usuários<i class="fa fa-calendar-o"></i></h1>
+
+                    <div id="owl-blog">
+
+                        <!-- 01 -->
+                        <div class="item">
+                            <div class="prev-blog-item">
+                                <h3>Scarlatte Cervera</h3>
+                                <p> Avaliação do hotel:
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                    <br>
+                                    <span>Nota do hotel: <b> 4.5 / 5.0</b></span>
+                                </p>
+
+                                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at
+                                    vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae
+                                    hendrerit. Eos </p>
+                                <a href="404-page.html">Abril de 2021</a>
+                            </div><!-- /.prev-blog-item -->
+
+                            <div class="blog-item">
+                                <div class="blog-item-img"><img src="img/blog/01.jpg" alt="Foto: Mesa de jantar com copos, tolhas, lenços e talheres. As cadeiras de cor caramelo estão encostadas. As mesas estão limpas e prontas para o uso."></div>
+
+                                <div class="blog-item-info page-scroll">
+                                    <span>02</span>
+                                    <small>Abril</small>
+                                    <a href="blog-page.html#comments-area">
+                                        <a href="blog-page.html">2021</a>
+                                </div><!-- /.blog-item-info -->
+
+                                <div class="blog-item-text">
+                                    <h3>Tíäg Silvä</h3>
+                                    <p> Avaliação do hotel:
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                        <br>
+                                        <span>Nota do hotel: <b> 4.7 / 5.0</b></span>
+                                    </p>
+
+                                    <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos
+                                        at
+                                        vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute
+                                        copiosae
+                                        hendrerit. Eos </p>
+                                </div><!-- /.blog-item-text -->
+                            </div>
+
+                            <div class="next-blog-item">
+                                <h3>Accommodare His Consul</h3>
+                                <p> Avaliação do hotel:
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                    <br>
+                                    <span>Nota do hotel: <b> 4.6 / 5.0</b></span>
+                                </p>
+
+                                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at
+                                    vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae
+                                    hendrerit. Eos </p>
+                                <a href="404-page.html">Abril de 2021</a>
+                            </div><!-- /.prev-blog-item -->
+                        </div><!-- /.item -->
+                        <!-- 02 -->
+                        <div class="item">
+                            <div class="prev-blog-item">
+                                <h3>Scarlatte Cervera</h3>
+                                <p> Avaliação do hotel:
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                    <br>
+                                    <span>Nota do hotel: <b> 4.5 / 5.0</b></span>
+                                </p>
+
+                                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at
+                                    vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae
+                                    hendrerit. Eos </p>
+                                <a href="404-page.html">Abril de 2021</a>
+                            </div><!-- /.prev-blog-item -->
+
+                            <div class="blog-item">
+                                <div class="blog-item-img"><img src="img/blog/02.jpg" alt="Foto: Na duas cadeiras de sol, na frente uma piscina linda e ampla. No canto direito da pisicna tem uma mini cachoeira de pedras e vegetação. no centro uma arvore e uma pequena flora. No canto esquerdo uma ponte que da acesso por cima da piscina até a mini cachoeira. Um espetáculo de lugar."></div>
+
+                                <div class="blog-item-info page-scroll">
+                                    <span>02</span>
+                                    <small>Abril</small>
+                                    <a href="blog-page.html#comments-area">
+                                        <a href="blog-page.html">2021</a>
+                                </div><!-- /.blog-item-info -->
+
+                                <div class="blog-item-text">
+                                    <h3>Tíäg Silvä</h3>
+                                    <p> Avaliação do hotel:
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                        <br>
+                                        <span>Nota do hotel: <b> 4.7 / 5.0</b></span>
+                                    </p>
+
+                                    <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos
+                                        at
+                                        vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute
+                                        copiosae
+                                        hendrerit. Eos </p>
+                                </div><!-- /.blog-item-text -->
+                            </div>
+
+                            <div class="next-blog-item">
+                                <h3>Accommodare His Consul</h3>
+                                <p> Avaliação do hotel:
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                    <br>
+                                    <span>Nota do hotel: <b> 4.6 / 5.0</b></span>
+                                </p>
+
+                                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at
+                                    vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae
+                                    hendrerit. Eos </p>
+                                <a href="404-page.html">Abril de 2021</a>
+                            </div><!-- /.prev-blog-item -->
+                        </div><!-- /.item -->
+                    </div><!-- /.owl-blog -->
+
+                </div><!-- /.col-lg-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /#blog -->
+
+
+
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="overlay"></div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-12 wp11">
+
+                    <ul class="social-buttons">
+                        <li><a href="https://www.linkedin.com/in/tiagdesenvolvedor/"><i class="fab fa-linkedin-in"></i>
+                                <span>Linkedin</span></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/tiagodesenvolvedor"><i class="fab fa-facebook-f"></i>
+                                <span>Facebook</span></a></li>
+                        <li><a href="https://github.com/tiag188/curriculo/blob/main/Curr%C3%ADculo.pdf"><i
+                                    class="fab fa-github"></i>
+                                <span>GitHub</span></a></li>
+                        <li><a href="https://www.instagram.com/tlsprogramador/"><i class="fab fa-instagram"></i>
+                                <span>Instagram</span></a>
+                        </li>
+                        <li><a href="https://youtube.com/"><i class="fas fa-book-open"></i> <span>Alura</span></a>
+                        </li>
+                    </ul>
+
+                </div><!-- /.col-lg-12 -->
+
+            </div><!-- /.row -->
+            <div class="row">
+
+                <div class="copyright">
+                    © Criado por <i class="fa fa-heart"></i><a target="_blank" href="https://tiag.com.br"> Tíäg
+                        Silvä</a>
+                    <br>
+                    2021
+                </div>
+                <div class="footer-line"></div>
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /#contact -->
+
+
+    <!-- Core JavaScript Files -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/lib/jquery.appear.js"></script>
+    <script src="js/lib/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/lib/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/lib/video/jquery.mb.YTPlayer.js"></script>
+    <script src="js/lib/flipclock/flipclock.js"></script>
+    <script src="js/lib/jquery.animateNumber.js"></script>
+    <script src="js/lib/waypoints.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
